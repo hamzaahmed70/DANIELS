@@ -1,0 +1,334 @@
+a , p 
+ {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+  }
+h1 , h2 , h3 , h4 , h5 , h6 , span 
+{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+  }
+
+ .home .home-coption .home-icons span
+  {
+    font-size: 14px;
+width: 30px;
+height: 30px;
+line-height: 30px;
+border-radius: 50%;
+background: rgba(0, 0, 0, 0.3);
+padding: 10px;
+  }
+  .home .home-coption h5
+  {
+    font-size: 70px ;
+  }
+  .home .home-coption h1
+  {
+    font-size: 35px  !important;
+
+  }
+  
+  .img-effect
+  {
+    position: relative;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.1) 1px, transparent 1px) 0 0,
+                radial-gradient(circle, rgba(0, 0, 0, 0.1) 1px, transparent 1px) 5px 5px;
+    background-size: 10px 10px; 
+    background-position: left bottom; 
+    padding: 0px 0px 50px 50px; 
+    overflow: hidden; 
+    
+ }
+ .progress {
+  height: 30px;
+  margin-bottom: 35px; 
+  background-color: #f3f3f3;
+  border-radius: 5px;
+}
+
+.btn-dark {
+  background-color: #000; 
+  color: #fff; 
+  border: 1px solid #000;
+}
+
+.btn-dark:hover {
+  background-color: #fff; 
+  color: #000; 
+  border: 1px solid #000;
+}
+.progress-bar {
+  transition: width 1s ease; 
+  position: relative;
+}
+ h3
+{
+  font-size: 50px;
+  font-weight: bold;
+  position: relative;
+  background: radial-gradient(circle,rgba(0, 0, 0, 0.1) 1px, transparent 1px) 0 0,
+              radial-gradient(circle,rgba(0, 0, 0, 0.1) 1px, transparent 1px) 10px 10px;
+  background-size: 10px 10px; 
+  display: inline-block;
+
+
+}
+.Services span i
+{
+  width:80px ;
+  height:80px ;
+  line-height: 80px;
+  border-radius: 50%;
+  background-color: #F7F7F7 ;
+  transition: all 1s ease;
+
+}
+.Services .card-icon:hover i
+{
+background-color: black;
+color: white;
+}
+.nav-tabs .nav-link
+{
+  border: 0;
+}
+.nav-tabs
+{
+  border: 0;
+}
+.Portfolio button
+{
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+.Portfolio button:hover
+{
+  color: black;
+}
+
+.nav-link {
+  position: relative;
+  border: none;
+  display: inline-block;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 12px;
+  width: 90%; 
+  height: 2px; 
+  background-color: #010a13; 
+  transform: scaleX(0); 
+  transition: transform 0.3s ease; 
+  transform-origin: bottom left; 
+}
+
+.nav-link.active::after {
+  transform: scaleX(0.8); 
+}
+
+.nav-link {
+  transition: all 0.3s ease;
+}
+
+.nav-link:not(.active)::after {
+  transform: scaleX(0); 
+}
+.layer-icon i
+{
+  border: 1px solid black;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+transition: all 0.5s;
+}
+.layer-icon i:hover
+{
+  background-color: white;
+  color: #000;
+}
+.item-card {
+  position: relative;
+}
+
+.item-img-layer {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.item-card:hover .item-img-layer {
+  opacity: 1;
+}
+.Contact .card-contact i
+{
+  font-size: 25px;
+  width:70px ;
+  height:70px ;
+  line-height:70px ;
+  border-radius: 50%;
+  background-color:#F7F7F7 ;
+  transition: all 0.5s;
+
+}
+.Contact .card-contact:hover i
+{
+  color: white;
+  background-color: #000;
+}
+.Testimonials img
+{
+  width: 8%;
+}
+.carousel-indicators button
+{
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  width: 10px !important;
+  height: 10px !important;
+  line-height: 10px;
+  border-radius: 50% !important;
+
+}
+.Team .card-home .card-layer  i
+{
+  color: white !important;
+  background-color: #000;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40PX;
+  border: 1px solid black;
+  transition: all 0.5s;
+}
+.Team .card-home .card-layer  i:hover
+{
+  color: black !important;
+  background-color: white;
+}
+.Team .card-home img
+{
+transition: all 0.5s;
+
+}
+.Team .card-home img:hover
+{
+  transform: scale(1.1);
+}
+.Team .card-home
+{
+  overflow: hidden; 
+  position: relative;
+  height: auto;
+}
+.Team .card-home .card-layer
+{
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  width: 97%;
+  top: 7px;
+  left: 7px;
+  bottom: 111px;
+  right: 50px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transform: rotatey(180deg);
+  transition: all 0.5s ease;
+}
+.Team .card-home:hover .card-layer
+{
+transform: rotatey(0deg) ;
+opacity: 1;
+}
+.Team .card-home footer
+{
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+#my-navbar .nav-link {
+  position: relative;
+  border: none;
+  display: inline-block;
+}
+
+#my-navbar .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 6PX;
+  left: 8px;
+  width: 90%; 
+  height: 2px; 
+  background-color: white; 
+  transform: scaleX(0); 
+  transition: transform 0.3s ease; 
+  transform-origin: bottom left; 
+}
+
+#my-navbar .nav-link.active::after {
+  transform: scaleX(0.8); 
+}
+
+#my-navbar .nav-link {
+  transition: all 0.3s ease;
+}
+
+#my-navbar .nav-link:not(.active)::after {
+  transform: scaleX(0); 
+}
+.form-control:focus {
+  color: var(--bs-body-color);
+  background-color: #F7F7F7;
+  border-color: #F7F7F7;
+  outline: 0;
+  box-shadow: 0 0 0 .25rem transparent;
+}
+.form-control
+{
+  background-color: #F7F7F7;
+border:#F7F7F7 ;
+}
+.navbar {
+  background-color: transparent; 
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar a {
+  color: white; 
+  transition: color 0.3s ease;
+}
+
+.navbar a:after {
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: white; 
+}
+
+.navbar.scrolled a {
+  color: black !important; 
+}
+
+.navbar.scrolled .nav-link::after {
+  background-color: black !important;
+}
+
+
+
+
+
+
+
+
